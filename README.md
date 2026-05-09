@@ -50,7 +50,7 @@
 #### ⚙️ Architecture
 ```mermaid
 flowchart TD
-    A["👨‍⚕️ Clinician Query\n\n🔤 Phenotype Description · 🧬 Gene Symbol · 🔬 Gene + Variant"]
+    A["👨‍⚕️ Clinician Query\n\n　🔤 Phenotype Description　·　🧬 Gene Symbol　·　🔬 Gene + Variant　"]
     
     A --> B[🧠 Semantic HPO Mapping]
     B --> C[✅ Clinician Confirms Terms]
