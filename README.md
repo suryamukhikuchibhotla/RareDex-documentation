@@ -49,48 +49,16 @@
 
 #### ⚙️ Architecture
 
+
+#### ⚙️ Architecture
+
 ```mermaid
 flowchart TD
-    %% Node Definitions
-    User([👨‍⚕️ Clinician Input])
-    Input{Query Type}
-    
-    subgraph Engine [RareDex Processing Engine]
-    Mapping[🧠 Semantic HPO Mapping]
-    Review[✅ Physician Validation]
-    Search[[🔍 Ontology-Aware Retrieval]]
-    end
-    
-    subgraph Data [Data Foundations]
-    Pheno[(📋 GA4GH Phenopackets)]
-    Onto[(🧬 HPO Graph)]
-    end
-    
-    subgraph Output [Clinical Decision Support]
-    Ranked[📊 Ranked Case Dossiers]
-    Details[💊 Evidence Synthesis]
-    AI[🤖 AI Case Summary]
-    end
-
-    %% Connections
-    User --> Input
-    Input -->|Plain Text| Mapping
-    Input -->|Gene/Variant| Search
-    
-    Mapping --> Review
-    Review --> Search
-    
-    Onto -.-> Mapping
-    Onto -.-> Search
-    Pheno -.-> Search
-    
-    Search --> Ranked
-    Ranked --> Details
-    Ranked --> AI
-
-    %% Styling
-    style Engine fill:#f9f9f9,stroke:#009688,stroke-width:2px
-    style Output fill:#f0fdfa,stroke:#009688,stroke-width:2px
-    style Data fill:#fff7ed,stroke:#ea580c,stroke-width:1px
-    style User fill:#009688,color:#fff,font-weight:bold
+    A[👨‍⚕️ Clinician Query] --> B[🔤 Phenotype · Gene · Gene+Variant]
+    B --> C[🧠 Semantic HPO Mapping]
+    C --> D[✅ Clinician Confirms Terms]
+    D --> E[🔍 Case Retrieval]
+    E --> F[📊 Ranked Case Dossiers]
+    F --> G[💊 Management Evidence · Variants · Trials]
+    F --> H[🤖 Interactive Evidence Synthesis]
 ```
