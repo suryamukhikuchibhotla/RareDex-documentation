@@ -29,4 +29,9 @@
 
 </div>
 
+## 🎯 The Mission
+
+In medicine, the proverb "think horses, not zebras" reminds clinicians to favor common diagnoses. But for the **estimated hundreds of millions of people** worldwide living with a rare disease, the **zebra is the reality**. 
+
+Reaching a diagnosis for these conditions takes an average of **4.8 years**, often involving a "diagnostic odyssey" of misdiagnoses and unnecessary investigations. **RareDex** was developed to bridge this gap by providing a structural solution to a fragmentation problem: providing clinicians with an infrastructure to systematically compare patient phenotypes against thousands of documented cases.
 ---
