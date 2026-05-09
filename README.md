@@ -25,7 +25,7 @@
 
 ---
 
-[🔍 Live Platform](https://raredex.nube.uni-greifswald.de/) • [📖 Overview](#overview) • [⚙️ Architecture](#architecture) • [✨ Features](#features) • [📬 Contact](#contact)
+[🔍 Live Platform](https://raredex.nube.uni-greifswald.de/) • [📖 Overview](#overview) • [✨ Features](#features) • [📬 Contact](#contact)
 
 </div>
 
@@ -47,16 +47,31 @@
 
 ---
 
-#### ⚙️ Architecture
-```mermaid
-flowchart TD
-    A["👨‍⚕️ Clinician Query\n 🔤 Phenotype Description · 🧬 Gene ·　🔬 Gene + Variant"]
-    
-    A --> B[🧠 Semantic HPO Mapping]
-    B --> C[✅ Clinician Confirms Terms]
-    C --> D[🌳 Ontology Expansion]
-    D --> E[📐 Ontology-aware Similarity]
-    D --> F[💡 Semantic Similarity]
-    E & F --> G[📋 Ranked Case Dossiers]
-    G --> H[💊 Management & Variants] & I[📊 Evidence Synthesis]
-```
+#### ✨ Key Features
+
+<p><strong>🔤 Phenotype Search</strong> — Describe a patient presentation in plain text. RareDex maps each term to HPO and retrieves the most similar cases.</p>
+
+<p><strong>✅ HPO Mapping Review</strong> — Mapped terms and similarity scores are shown before retrieval executes, so the query can be confirmed or adjusted.</p>
+
+<p><strong>🧬 Gene Search</strong> — Retrieve all cases associated with a gene symbol, grouped by disease.</p>
+
+<p><strong>🔬 Gene + Variant Search</strong> — Narrow retrieval to cases carrying a specific variant using gene symbol and HGVS notation.</p>
+
+<p><strong>📋 Case Dossiers</strong> — Each case is enriched with disease metadata, pathogenic variants, management guidance, and active clinical trials.</p>
+
+<p><strong>📊 Interactive Evidence Synthesis</strong> — Evidence dashboard computed across retrieved cases — phenotype overlap, demographics, variant pathogenicity, and disease onset.</p>
+
+<p><strong>📄 PDF Export</strong> — Download individual cases or full result sets.</p>
+
+---
+
+#### 📬 Contact
+
+<p>Developed by <strong>Surya Mukhikuchibhotla</strong> · University Medicine Greifswald</p>
+
+<p>
+  <a href="mailto:suryamukhi.kuchibhotla@gmail.com">📧 Email</a> &nbsp;·&nbsp;
+  <a href="https://github.com/suryamukhikuchibhotla">GitHub</a> &nbsp;·&nbsp;
+  <a href="https://www.linkedin.com/in/skuchibhotla/">LinkedIn</a>
+</p>
+---
