@@ -50,26 +50,16 @@
 #### ⚙️ Architecture
 ```mermaid
 flowchart TD
-    A[👨‍⚕️ Clinician Query] --> B{Query Type}
-    B --> C[🔤 Phenotype Description]
-    B --> D[🧬 Gene Symbol]
-    B --> E[🔬 Gene + Variant]
+    A[👨‍⚕️ Clinician Query] --> B[🔤 Phenotype] & C[🧬 Gene] & D[🔬 Gene + Variant]
+    B --> E[🧠 Semantic HPO Mapping]
+    E --> F[✅ Clinician Confirms Terms]
+    F --> G[🌳 Ontology Expansion]
+    G & C & D --> H
 
-    C --> F[🧠 Semantic HPO Mapping]
-    F --> G[✅ Clinician Confirms Terms]
-    G --> H[🌳 Ontology Expansion]
-
-    H --> I
-    D --> I
-    E --> I
-
-    subgraph Retrieval [" 🔍 Hybrid Retrieval "]
+    subgraph H [" 🔍 Hybrid Retrieval "]
     direction LR
-        I[📐 Ontology-aware Similarity] --> K[📋 Ranked Case Dossiers]
-        J[💡 Semantic Similarity] --> K
+        I[📐 Ontology-aware Similarity] & J[💡 Semantic Similarity] --> K[📋 Ranked Case Dossiers]
     end
 
-    K --> M[💊 Management & Variants]
-    K --> N[📊 Evidence Synthesis]
-    K --> O[🤖 AI Summary]
+    K --> L[💊 Management & Variants] & M[📊 Evidence Synthesis]
 ```
