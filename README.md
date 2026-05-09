@@ -1,31 +1,31 @@
-# RareDex Dcomentation
+<div align="center">
 
-<p align="center">
-  <img src="image1.png" alt="RareDex" width="100%">
-</p>
+<img src="image1.png" alt="RareDex" width="100%">
 
-<p align="center">
-  <strong>Phenotype-driven rare disease case retrieval for clinical decision support.</strong>
-</p>
+# RareDex
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Status-Live_System-success?style=for-the-badge" alt="Status">
-  <img src="https://img.shields.io/badge/Affiliation-Uni_Greifswald-003366?style=for-the-badge" alt="Institution">
-</p>
+### 🧬 Rare disease case retrieval for clinical decision support
 
-<p align="center">
-  <a href="#about">About</a> •
-  <a href="#key-features">Key Features</a> •
-  <a href="https://raredex.nube.uni-greifswald.de/">Live Platform</a> •
-  <a href="#contact">Contact</a>
-</p>
-
+*University Medicine Greifswald · Institute of Bioinformatics*
 
 ---
 
-## 🧬 The Mission
+![Status](https://img.shields.io/badge/Status-Live-brightgreen?style=flat-square)
+![GA4GH](https://img.shields.io/badge/GA4GH-Phenopackets_v2-orange?style=flat-square)
+![Python](https://img.shields.io/badge/Python-3.10+-3776AB?style=flat-square&logo=python&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
+![Next.js](https://img.shields.io/badge/Next.js-14-black?style=flat-square&logo=next.js)
+![License](https://img.shields.io/badge/License-MIT-green?style=flat-square)
 
-> "When you hear hoofbeats, think horses, not zebras."
+---
 
-In medicine, this favors common diagnoses. But for millions worldwide, the **zebra is the reality**, and reaching a diagnosis takes an average of **4.8 years**. RareDex aims to end this diagnostic odyssey.
-![RareDex Interface](image1.png)
+| 🧪 9,688 patient cases | 🦓 643 rare diseases | 🧬 641 genes | 📋 GA4GH Phenopackets |
+|:---:|:---:|:---:|:---:|
+
+---
+
+[🔍 Live Platform](https://raredex.nube.uni-greifswald.de/) • [📖 Overview](#overview) • [⚙️ Architecture](#architecture) • [✨ Features](#features) • [📬 Contact](#contact)
+
+</div>
+
+---
