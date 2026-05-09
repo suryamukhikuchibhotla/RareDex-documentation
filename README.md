@@ -1,9 +1,7 @@
 # RareDex Dcomentation
 
 <p align="center">
-  <!-- Replace with your actual logo path -->
-  <img src="/Users/kuchibhotlas/Developer/RareDex_Doc/RareDex/image1" alt="RareDex Logo" width="180">
-  <h1 align="center">RareDex</h1>
+  <img src="assets/image1.png" alt="RareDex" width="100%">
 </p>
 
 <p align="center">
@@ -22,6 +20,7 @@
   <a href="#contact">Contact</a>
 </p>
 
+
 ---
 
 ## 🧬 The Mission
@@ -29,4 +28,4 @@
 > "When you hear hoofbeats, think horses, not zebras."
 
 In medicine, this favors common diagnoses. But for millions worldwide, the **zebra is the reality**, and reaching a diagnosis takes an average of **4.8 years**. RareDex aims to end this diagnostic odyssey.
-![RareDex Interface](/Users/kuchibhotlas/Developer/RareDex_Doc/RareDex/image1.png)
+![RareDex Interface](assets/image1.png)
