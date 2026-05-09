@@ -2,11 +2,12 @@
 
 <img src="image1.png" alt="RareDex" width="100%">
 
-# RareDex
+## *"When you hear hoofbeats, think horses, not zebras."*
 
 ### 🧬 Rare disease case retrieval for clinical decision support
 
-*University Medicine Greifswald · Institute of Bioinformatics*
+<sub>🏛️ University Medicine Greifswald &nbsp;·&nbsp; Institute of Bioinformatics</sub>
+
 
 ---
 
