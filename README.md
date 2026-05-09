@@ -2,7 +2,7 @@
 
 <p align="center">
   <!-- Replace with your actual logo path -->
-  <img src="~/Developer/RareDex_Doc/RareDex/image1.png" alt="RareDex Logo" width="180">
+  <img src="/Users/kuchibhotlas/Developer/RareDex_Doc/RareDex/image1.png" alt="RareDex Logo" width="180">
   <h1 align="center">RareDex</h1>
 </p>
 
